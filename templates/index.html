@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Member Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main_proto.css') }}">
+    
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/" method="post">
+        <div class="banner">
+          <h1>Risk Assessment Tool</h1>
+        </div>
+        <div class = "totalbox">
+          <div class="colums">
+          
+            <div class="item">
+              <label for="pregnancies"> Pregnancies<span>*</span></label>
+              <input id="pregnancies" type="text" name="pregnancies" required/>
+            </div>
+          
+            <div class="item">
+              <label for="glucose"> Glucose<span>*</span></label>
+              <input id="glucose" type="text" name="glucose" required/>
+            </div>
+          
+            <div class="item">
+              <label for="bloodpressure"> Blood Pressure<span>*</span></label>
+              <input id="bloodpressure" type="text"   name="bloodpressure" required/>
+            </div>
+            <div class="item">
+              <label for="skinthickness">Skin Thickness</label>
+              <input id="skinthickness" type="text"   name="skinthickness"/>
+            </div>
+          
+            <div class="item">
+              <label for="insulin"> Insulin<span>*</span></label>
+              <input id="insulin" type="text"   name="insulin" required/>
+            </div>
+            <div class="item">
+              <label for="BMI"> BMI<span>*</span></label>
+              <input id="BMI" type="text" name="BMI" required/>
+            </div>
+         
+            <div class="item">
+              <label for="pedfunc"> Diabetes Pedigree Function<span>*</span></label>
+              <input id="pedfunc" type="text" name="pedfunc" required/>
+            </div>
+            <div class="item">
+              <label for="age"> Age<span>*</span></label>
+              <input id="age" type="text"   name="age" required/>
+            </div>
+          </div> 
+        
+        <div>   
+        <div class="warn">
+          <h2>Disclaimer</h2>
+          
+          <h3>The results produced here should not be considered as a replacement for actual professional consulation from a medical practitioner. This results are purely for individual assesment purposes. User disclaimer advised!</h3>
+        </div>
+        </div>
+        <div class="btn-block">
+          <button type="submit" value="submit">Take test</button>
+        </div>
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>

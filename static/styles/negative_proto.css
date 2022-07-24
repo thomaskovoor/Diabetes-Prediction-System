@@ -1,0 +1,99 @@
+body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    
+}
+
+.result_card {
+  background: linear-gradient(105.86deg, rgba(0, 176, 155, 0.8) -0.21%, rgba(150, 201, 61, 0.8) 98.89%);
+  border-radius: 38px;
+  height: 30em;
+  margin: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.card_title {
+  font-size: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.result_msg {
+  font-size: 3em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result_quote {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+
+.smile{
+  width: 3em;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tip_title {
+  margin-left: 2.6em;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.58);
+}
+.tips_mains {
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+
+}
+.tips_2nd {
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+
+}
+
+.line{
+  width: 100%;
+  height: 0.3em;
+  background: rgba(0, 0, 0, 0.48);
+  border-radius: 5px;
+  width: 10em;
+}
+
+.tips_list {
+  margin-top: 1.5em;
+  margin-left: 2.6em;
+  color:rgba(0, 0, 0, 0.90);
+}
+
+li {
+  font-size: 2.2em;
+  font-weight: bold;
+  /* list-style-image: url(assests/greentick.png); */
+  list-style: none;
+  /* padding-top: -1em; */
+}
+
+li::before {
+  content: "\23FA";
+  margin-right: 0.3em;
+  padding-top: 0.5em;
+  color: green;
+}
+
+.tips_list p {
+  font-size: 1.4em;
+  margin-left: 2.4em;
+}

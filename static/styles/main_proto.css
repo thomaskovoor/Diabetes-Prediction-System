@@ -1,0 +1,124 @@
+
+      html, body {
+      min-height: 100%;
+      font-family: 'Helvetica', 'Arial', sans-serif;
+      }
+  
+      body {
+            background: #fdfdfd;
+      }
+
+      .banner {
+            /* background: #ffc7c7; */
+            height: 25em;
+            margin: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            background: linear-gradient(105.69deg, rgba(0, 0, 0, 0.36) -0.21%, rgba(0, 0, 0, 0.33) 104.01%), url(assests/hand-holding-blood-glucose-meter-measuring-blood-sugar-background-is-stethoscope-chart-file_1387-942.webp);
+            background-size: cover;
+            background-position: 50% 30%;
+            /* background: url('assests/hand-holding-blood-glucose-meter-measuring-blood-sugar-background-is-stethoscope-chart-file_1387-942.webp') #fff left top repeat-x ; */
+      
+      }
+
+      .banner h1 {
+            font-size: 5em;
+            color: #fff;;
+            font-weight: 100;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+      }
+
+      .colums {
+            display: grid;
+            
+            margin: 0;
+            grid-template-columns: 45% 45%;
+            grid-row-gap: 2em;
+            grid-column-gap: 4em;
+            /* background-color: #ffc7c7; */
+            /* margin: 20em; */
+            /* margin-top: 3em; */
+            margin-bottom: 0em;
+            padding: 5em;
+            padding-bottom: 1em;
+      }
+
+      .forms {
+            font-size: large;
+      }
+
+      .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      }
+
+      input {
+            padding: 22px;
+            font-size: 20px;
+            width: 3em;
+            border-width: 1px;
+            border-color: #CCCCCC;
+            background-color: #d8d8d8;
+            color: #000000;
+            border-style: solid;
+            border-radius: 22px;
+       }
+      input:focus {
+            outline:none;
+       }
+
+      label {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 149.49%;
+            /* identical to box height, or 30px */
+
+            letter-spacing: 0.04em;
+
+            color: #000000;
+
+      }
+
+      span {
+            color: red;
+      }
+
+      .totalbox {
+            /* background-color: slateblue; */
+            align-items: center;
+            margin: 20em;
+            margin-top: 0em;
+            border: 1px solid rgba(0, 0, 0, 0.25);
+            border-radius: 38px;
+      }
+
+      .warn {
+            /* background-color: blanchedalmond; */
+            margin-left: 4em;
+            margin-right: 4em;
+
+
+      }
+
+      button {
+            background: #938AFC;
+            border-radius: 13px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #938AFC;
+            color: #000000;
+            font-size: 20px;
+            padding: 12px;
+            margin-top: 0em;
+            margin-bottom: 2em;
+            margin-left: 45%;
+            margin-right: 45%;
+            cursor: pointer;
+      }
